@@ -93,3 +93,8 @@ button img {
   width: 16px;
   height: 16px;
 }
+
+.changeColor {
+  background-color: #5572bb;
+  color: #ffffff;
+}

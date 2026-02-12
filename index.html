@@ -22,7 +22,7 @@
         <div class="input-group">
           <label for="minutes">MIN</label>
           <input
-            type="text"
+            type="number"
             id="minutes"
             name="minutes"
             value="00"
@@ -36,7 +36,7 @@
         <div class="input-group">
           <label for="seconds">SEC</label>
           <input
-            type="text"
+            type="number"
             id="seconds"
             name="seconds"
             value="00"
@@ -47,14 +47,16 @@
       </section>
 
       <div class="button-group">
-        <button type="submit" class="btn-start">
+        <button disabled type="submit" class="btn-start">
           <img src="icons/icon-start-disabled.png" alt="재생버튼" />
           START
         </button>
-        <button type="reset" class="btn-reset">
+        <button disabled type="reset" class="btn-reset">
           <img src="icons/icon-reset-disabled.png" alt="" />RESET
         </button>
       </div>
     </form>
+
+    <script src="app.js"></script>
   </body>
 </html>
