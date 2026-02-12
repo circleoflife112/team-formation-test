@@ -83,4 +83,13 @@ button {
   background-color: #324577;
   color: #617199;
   border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+button img {
+  width: 16px;
+  height: 16px;
 }
