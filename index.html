@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>weniv timer</title>
+  </head>
+  <body>
+    <form id="timer-form">
+      <h3>TIMER</h3>
+
+      <section class="timer">
+        <h4 class="sr-only">타이머</h4>
+        <div class="input-group">
+          <label for="hours">HRS</label>
+          <input type="text" id="hours" name="hours" />
+        </div>
+
+        <span class="divider">:</span>
+
+        <div class="input-group">
+          <label for="minutes">MIN</label>
+          <input
+            type="text"
+            id="minutes"
+            name="minutes"
+            value="00"
+            min="0"
+            max="59"
+          />
+        </div>
+
+        <span class="divider">:</span>
+
+        <div class="input-group">
+          <label for="seconds">SEC</label>
+          <input
+            type="text"
+            id="seconds"
+            name="seconds"
+            value="00"
+            min="0"
+            max="59"
+          />
+        </div>
+      </section>
+
+      <div class="button-group">
+        <button type="submit" class="btn-start">START</button>
+        <button type="reset" class="btn-reset">RESET</button>
+      </div>
+    </form>
+  </body>
+</html>
